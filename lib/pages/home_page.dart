@@ -5,6 +5,7 @@ import 'package:donut_app_4sa/tabs/pizza.dart';
 import 'package:donut_app_4sa/tabs/smootie_tab.dart';
 import 'package:donut_app_4sa/utils/my_tab.dart';
 import 'package:flutter/material.dart';
+import 'package:donut_app_4sa/utils/shopping_cart.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -79,18 +80,13 @@ class _HomePageState extends State<HomePage> {
               PanCakesTab(),
               PizzaTab(),
             ]),
-          )
-      
-        //carrito
-        
-      
-          ]
-          
-        //Textp principal
-      
-        
-        ),
+          ),
+
+          ShoppingCart()
+      ], 
+    ),
       ),
     );
   }
 }
+
