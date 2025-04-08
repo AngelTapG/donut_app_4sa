@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
             child: TabBarView(children: [
               DonutTab(),
               BurgerTab(),
-              SmoothieTab(),
+              SmootieTab(),
               PanCakesTab(),
               PizzaTab(),
             ]),
